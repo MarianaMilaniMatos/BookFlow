@@ -78,7 +78,8 @@ BookFlow/
 ├── requirements.txt            
 ├── LICENSE                     
 └── README.md
-## **⚙️ Instalação**
+
+# **⚙️ Instalação**
 
 # 1. Clone o repositório
 git clone https://github.com/MarianaMilaniMatos/BookFlow.git
@@ -93,13 +94,13 @@ venv\Scripts\activate      # Windows
 # 3. Instale dependências
 pip install -r requirements.txt
 
-##**🚀 Rodando Localmente**     
+#**🚀 Rodando Localmente**     
 # Com o ambiente virtual ativado
 flask run
 Depois, abra no navegador:
 http://127.0.0.1:5000
 
-##**📖 Funcionalidades**  
+#**📖 Funcionalidades**  
 
 ✅ Adicionar novo livro com título, autor, gênero e status de leitura
 🔍 Ver todos os livros cadastrados
