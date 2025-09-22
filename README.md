@@ -45,9 +45,9 @@ O objetivo é proporcionar uma interface simples, organizada e código bem estru
 ### Programação Orientada a Objetos (POO)
 
 - **Classes** para representar entidades do domínio (ex: `Livro`).  
-- Encapsulamento: atributos privados ou protegidos, uso de getters/setters se necessário.  
-- Métodos nas classes para operações (ex: validar dados, representar estado, conversões se houver).  
-- Possível reutilização / composição: se há código comum entre partes, abstrações.
+- **Encapsulamento**: atributos privados ou protegidos, uso de getters/setters se necessário.  
+- **Métodos** nas classes para operações (ex: validar dados, representar estado, conversões se houver).  
+- **Reutilização / composição:** se há código comum entre partes, abstrações.
 
 ---
 
