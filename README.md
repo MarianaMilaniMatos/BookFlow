@@ -52,61 +52,66 @@ O objetivo é proporcionar uma interface simples, organizada e código bem estru
 ---
 
 ## 📂 Estrutura do Projeto
-
-```text
+```bash
 BookFlow/
-├── biblioteca_flask/           # Código fonte da aplicação Flask
-│   ├── models/                
-│   │   └── livro.py           
-│   │
-│   ├── controllers/            
-│   │   ├── livro_controller.py 
-│   │   └── ...                 
+├── biblioteca_flask/           
 │   │
 │   ├── templates/              
-│   │   ├── index.html          
-│   │   ├── add_book.html       
-│   │   ├── edit_book.html      
-│   │   └── ...                  
+│   │   └── index.html           
+│   │   └── login.html      
 │   │
-│   ├── static/                 
-│   │   └── style.css         
+│   ├── static/               
+│   │   └── style.css
+│   │   └── login.css        
 │   │
 │   ├── app.py                  
-│   └── config.py (se houver)     
-│
-├── requirements.txt            
+│   ├── controller.py
+│   ├── model.py    
+├── requirements.txt             
 ├── LICENSE                     
-└── README.md
+└── README.md                   
+```
+---
+## ⚙️ Instalação
 
-# **⚙️ Instalação**
+### 1. Clone o repositório
 
-# 1. Clone o repositório
 git clone https://github.com/MarianaMilaniMatos/BookFlow.git
+```bash
 cd BookFlow
+```
 
-# 2. Crie ambiente virtual (recomendado)
+### 2. Crie ambiente virtual (recomendado)
+```bash
 python3 -m venv venv
+```
+```bash
 source venv/bin/activate   # Linux/macOS
-# ou
-venv\Scripts\activate      # Windows
+```
+ ou
+```bash
+ venv\Scripts\activate      # Windows
+```
 
-# 3. Instale dependências
+### 3. Instale dependências
+```bash
 pip install -r requirements.txt
-
-#**🚀 Rodando Localmente**     
-# Com o ambiente virtual ativado
+```
+## 🚀 Rodando Localmente     
+### Com o ambiente virtual ativado
+```bash
 flask run
+```
 Depois, abra no navegador:
 http://127.0.0.1:5000
 
-#**📖 Funcionalidades**  
+## 📖 Funcionalidades 
 
-✅ Adicionar novo livro com título, autor, gênero e status de leitura
-🔍 Ver todos os livros cadastrados
-✏️ Editar livro existente
-❌ Remover livro
-💬 Possível feedback visual / mensagens de sucesso ou erro
-🎨 Interface com estilo básico (CSS) e navegação simples
+- ✅ Adicionar novo livro com título, autor, gênero e status de leitura
+- 🔍 Ver todos os livros cadastrados
+- ✏️ Editar livro existente
+- ❌ Remover livro
+- 💬 Possível feedback visual / mensagens de sucesso ou erro
+- 🎨 Interface com estilo básico (CSS) e navegação simples
 
-Feito com ❤️ por Mariana Milani Matos
+
